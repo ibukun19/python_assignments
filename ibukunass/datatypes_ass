@@ -1,0 +1,138 @@
+# The numeric data type in Python represents the data that has a numeric value.        
+# A numeric value can be an integer, a floating number, or even a complex number.
+
+# Text Type: str: "Hello World"
+# Numeric Types:	int, float, complex: int(10), float(10., complex(5j)
+# Sequence Types: list, tuple, range: tuple("cherry", "banana", "orange"), range(6)
+# Mapping Type:	dict: dict{"name" : "Faith", "age" : 36} 
+# Set Types:	set, frozenset: set(("apple", "banana", "cherry")), frozenset(("apple", "banana", "cherry"))
+# Boolean Type:	bool: bool(5)
+# Binary Types:	bytes, bytearray, memoryview: bytes(5),bytearray(5)
+# None Type:	NoneType: memoryview(bytes(5))
+
+y = int(25)
+
+print(y)
+
+print(type(y))
+
+# Numbers:
+
+# float
+# int
+# complex
+
+x = int(2.8)
+
+print (x)
+
+print(type(x))
+
+y = float(5)
+
+print(y)
+
+print(type(y))
+
+z = complex(7)
+
+print(z)
+
+print(type(z))
+
+# Casting:
+
+# In Python, casting refers to the process of converting a variable from one data type to another.
+x = int("3")
+
+print(x)
+
+y = float("5")
+
+print(y)
+
+z = str(10)
+
+print(z)
+
+
+# Strings:
+
+# A string is a sequence of characters in Python. It is a data type that is used to represent text.
+
+age = 40
+txt = "My name is Faith, and I am {}"
+print(txt.format(age))
+
+# Boolean:
+
+#In Python, Boolean is a built-in data type that represents one of two values: True or False. 
+#Boolean values are often used in programming to evaluate expressions and make decisions based on the result.
+
+x = 200
+print(isinstance(x, int))
+
+# Operators:
+
+#Python operators are special symbols, keywords, or combinations of symbols that perform operations on variables and values.
+
+print(20-10+10/10*2//3)
+
+# LIST:
+
+#A list is a collection of items in Python that are ordered and changeable.
+#It is one of the most commonly used data structures in Python. 
+
+thislist = ["apple", "banana", "cherry"]
+thislist[1] = "pawpaw"
+
+print(thislist)
+
+# TUPLE:
+
+# A tuple is a collection of values that are ordered and immutable (cannot be changed).
+# To create a tuple, you can use parentheses () and separate the values by commas.
+
+thistuple = ("1", "3j", "5.8")
+y = list(thistuple)
+y.remove("3j")
+thistuple = tuple(y)
+
+print(thistuple)
+
+# SET:
+
+#A set is a built-in data type in Python that is used to store collections of data.
+
+set1 = {1, 2, 3, 4, 5}
+set2 = {6, 7, 8, 9, 10}
+
+set3 = set1.union(set2)
+print(set3)
+
+# Dictionaries:
+
+# Dictionaries are a built-in data type in Python that allow you to store data in key-value pairs.
+
+thisdict = dict(name = "Faith", age = 40, country = "Nigeria")
+
+print(thisdict) 
+
+#if else:
+
+#In Python, if-else is a conditional statement that allows you to execute a block of code if a certain condition is met.
+
+#Green balls = [30]
+#Blue balls = [50]
+
+#print("A") if Green balls < Blue balls
+
+Green = 33
+Blue = 33
+if Green > Blue:
+  print("b is greater than a")
+elif Green == Blue:
+ print("a and b are equal")
+
+
+

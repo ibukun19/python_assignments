@@ -21,3 +21,10 @@
 # A dictionary is written with curly brackets, and each key-value pair is separated by a comma.
 # my_dict = {"name": "John", "age": 36, "country": "Nigeria"}
 # print(my_dict["name"])
+# ls: To display the content of a folder in bash terminal
+# cd: TO change directory in a bash terminal
+# cd ..: To open a parent folder
+# ls -a: To open hidden files
+# git stutus: To display commited files
+# git commit: To commit files
+# git push:
